@@ -17,3 +17,6 @@ which often leads ambuiguity in codebase
 
 let abhishekAge = 21;
 console.log(`Abhishek's age is: ${abhishekAge}`);
+
+const fixedAge = 20;
+console.log(`fixedAge through const is: ${fixedAge}`);
