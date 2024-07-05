@@ -1,10 +1,10 @@
 const accId = 222141
 let accEmail = "abhiske@google.com"
 var accPassword = "12345"
-accCity = "Jaunpur"  // also a valid only to initialise a string
-let accState;
+accCity = "Jaunpur" 
+let accState;  // will be as undefined object in its type output
 
-// accountId = 2 // not allowed
+// accountId = 2 // not allowed because it is declared as 'const' type
 
 accEmail = "abc@xyz.com"
 accPassword = "1234"
