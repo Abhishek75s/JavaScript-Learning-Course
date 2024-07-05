@@ -1,22 +1,22 @@
-var age = 15;
-var age = 32;
-var age = 56;
+const accountId = 144553
+let accountEmail = "hitesh@google.com"
+var accountPassword = "12345"
+accountCity = "Jaipur"
+let accountState;
 
-console.log(`Age: ${age}`); // op: 56
+// accountId = 2 // not allowed
+
+
+accountEmail = "hc@hc.com"
+accountPassword = "21212121"
+accountCity = "Bengaluru"
+
+console.log(accountId);
+
 /*
-var was used before 2015, after ES6 update it depricated
-because of issue of having multiple declaration of same variable throughout program
-which often leads ambuiguity in codebase
+Prefer not to use var
+because of issue in block scope and functional scope
 */
 
-// ---------------------------------------------
 
-// after 2015, ES6 brought let,const feature too.
-// since then, 'let' became popular,
-
-
-let abhishekAge = 21;
-console.log(`Abhishek's age is: ${abhishekAge}`);
-
-const fixedAge = 20;
-console.log(`fixedAge through const is: ${fixedAge}`);
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
