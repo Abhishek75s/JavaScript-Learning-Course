@@ -27,4 +27,4 @@
     console.log(obj1.name);  // Abhishek
     console.log(obj1.age);  // 32
     console.log(obj2.name);  // Abhishek
-    console.log(obj2.age);  // 32
+    console.log(obj2.age);  // 32 
